@@ -7,4 +7,4 @@ listt=[
     ["How many hearts does an octopus have?", ["3", "three", "Three"]]
 ]
 
-print(listt[0][2])
+print(listt[0][1])
