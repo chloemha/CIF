@@ -34,6 +34,25 @@ graph TD
 
 You can also find my code of my number guessing game on my CIF repository under "unit 3". 
 
+Poject 2
+---
+During classes three and four, we learned how to make a text based adventure game (TBAG). There would be questions asked to the player, and if they answered correctly, they would get points! Many different variations of these games were taught, and I created a Harry Potter themed one. The player would be sorted into their house, and then participate in a class, and be tested on the material afterwards. 
+
+Here is the flowchart of my game: 
+
+``` mermaid
+graph TD
+  A[start] --> B[game instructions] --> C[ask questions on personality] --> D[sort user into house based on input] --> E[class instructions] --> F[ask class questions in order]
+  F[ask class questions in order] --> G[is answer right?]
+  G[is answer right?] --> H[yes] --> J[all questions asked?]
+  G[is answer right?] --> I[no] --> J[all questions asked?]
+  J[all questions asked?] --> F[ask class questions in order]
+  J[all questions asked?] --> K[you got x points!] --> L[end]
+```
+
+You can also find my code of my number guessing game on my CIF repository under "unit 5". 
+
+
 Other
 ---
 more to come soon!
